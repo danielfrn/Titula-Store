@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <link rel="stylesheet" href="style/style.css">
     <meta charset="UTF-8">
@@ -8,55 +8,59 @@
     <title>Titula Store</title>
 </head>
 <body>
-    <header>
+    <header id="headerhome">
         <nav>
             <ul>
-                    <li><img src="imgs/logo.png" alt="" width="100px"></li>
-                    <li>Home</li>
-                    <li>Produtos</li>
-                    <li>Meus Pedidos</li>
-                    <li>Contato</li>
-                    <li><img src="imgs/user2.png" alt=""></li>
+                <a href=""><li><img src="imgs/logo.png" alt="" width="100px"></li></a>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Meus Pedidos</li>
+                <li>Contato</li>
+                <a href="http://127.0.0.1:5500/login.html"><li><img src="imgs/user2.png" alt=""></li></a>
             </ul>
         </nav>
         <h1 id="textoimg" class="txtimg">TITULA STORE</h1> <br><br>
         <h2 id="textoimg2" class="txtimg">Qualidade e Esporte</h2>
     </header>
+    <div>
+        <h1 id="itensmaisbuscados">Itens mais buscados</h1>
+    </div>
     <section id="secao1">
         <div class="box">
-            <div>
-                <img src="imgs/camisaselecao.jpg" alt="" width="100%" height="220px">
+            <a href=""><div>
+                <img src="imgs/camisaselecao.jpg" alt="" width="100%" height="235px">
             </div>
             <div class="txtbox">
-                <h3>SLA</h3>
+                <h3>Roupas</h3>
+            </div></a>
+        </div>
+        <div class="box">
+            <div>
+                <img src="imgs/tenis.jpg" alt="" width="100%" height="235px">
+            </div>
+            <div class="txtbox">
+                <h3>Calcados</h3>
             </div>
         </div>
         <div class="box">
             <div>
-                <img src="imgs/tenis.jpg" alt="" width="100%" height="220px">
+                <img src="imgs/bola.jpg" alt="" width="100%" height="235px">
             </div>
             <div class="txtbox">
-                <h3>SLA</h3>
-            </div>
-        </div>
-        <div class="box">
-            <div>
-                <img src="imgs/bola.jpg" alt="" width="100%" height="220px">
-            </div>
-            <div class="txtbox">
-                <h3>SLA</h3>
+                <h3>Equipamentos</h3>
             </div>
         </div>
     </section>
     <section id="secao2"> 
         <div id="txtsecao2">
-            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis ex eaque consequuntur quas animi, qui velit nihil suscipit expedita eligendi iusto saepe accusamus. Impedit minus mollitia tempore cum porro fugit.</h3>
+            <img src="imgs/txtsobrenos.png" alt="">
         </div>
         <div id="imgsecao2">
             <img src="imgs/imgmeio.jpg" alt="" id="imgredonda" width="350px" height="350px">
         </div>
-
     </section>
-    
+    <section id="rodape">
+        <p>&copy; 2023 Titula Store. Todos os direitos reservados.</p>
+    </section>
 </body>
 </html>

@@ -13,7 +13,7 @@
     font-family: universit;
     src: url(../fonts/University.otf);
 }
-header{
+#headerhome{
     background-image: url(../imgs/campofutebol2.jpg);
     height: 500px;
     background-repeat: no-repeat;
@@ -68,6 +68,8 @@ nav ul{
     display: flex;
     padding: 15px;
     text-align: center;
+    font-family: Universit;
+    font-size: 13px;
 }
 #secao2{
     height: 500px;
@@ -88,4 +90,54 @@ nav ul{
 }
 #imgredonda{
     border-radius: 100%;
+}
+#rodape{
+    height: 40px;
+    background-color: #240046;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 60px;
+    font-size: 20px;
+}
+#itensmaisbuscados{
+    display: flex;
+    justify-content: center;
+    background-color: #240046;
+    color: white;
+    font-size: 25px;
+    font-family: Universit;
+    padding: 18px;
+    height: 20px;
+}
+#headerlogin{
+    background-color: #240046;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#login{
+    width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+}
+#login h2{
+    text-align: center;
+}
+#login input[type="text"],
+#login input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+#login input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
 }
