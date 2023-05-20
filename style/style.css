@@ -177,3 +177,9 @@ footer{
     text-decoration: none;
     color: white;
 }
+#contato{
+    text-align: center;
+    font-family: Universit;
+    padding: 40px;
+    height: 400px;
+}
